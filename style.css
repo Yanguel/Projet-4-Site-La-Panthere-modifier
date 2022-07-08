@@ -26,6 +26,12 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
+/* Début des modifications*/
+
+.textefooter{
+    color: #FFFFFF;
+}
+/* Fin des modifications */
 
 .bloc {
     width: 100%;
@@ -84,6 +90,9 @@ a:hover {
     content: "";
     background-size: 2px 2px;
     position: absolute;
+/* Rajout de l'opacity pour la couleur du texte */
+    opacity: 0.5;
+/*-----*/
     top: 0;
     bottom: 0;
     left: 0;
@@ -133,7 +142,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #FFFFFF;
 }
 
 .d-bloc .a-btn:hover,
@@ -771,15 +780,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #CC450B;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #CC450B;
     color: #FFFFFF!important;
 }
 
