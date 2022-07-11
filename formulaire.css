@@ -13,6 +13,9 @@ body {
 .acceuil{
     padding-right: 15px;
 }
+.textecontact{
+    padding-top: 30px;
+}
 a,
 button {
     transition: all .3s ease-in-out; 
@@ -321,7 +324,13 @@ nav{
     margin-bottom: 0;
     z-index: 1;
 }
-
+.site-navigation{
+    list-style: none;
+}
+.acceuil{
+    list-style: none;
+    text-decoration: none;
+}
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
@@ -339,6 +348,7 @@ nav{
 
 .navbar-brand img[src$=svg] {
     min-width: 100px;
+    padding-top: 10px;
 }
 
 .nav-center .navbar-brand img {
