@@ -15,7 +15,7 @@ body {
 }
 a,
 button {
-    transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out; 
     outline: none!important;
 }
 
@@ -104,6 +104,14 @@ a:hover {
     left: 0;
     right: 0;
 }
+/* Rajout du font size*/
+.white{
+    font-size: 14px;
+}
+.text-center{
+    font-size: 12px;
+}
+/* Rajout du font size*/
 
 .texture-paper::before {
     background: url("img/texture-paper.png");
@@ -792,6 +800,9 @@ h4 {
 
 .tc-white {
     color: #FFFFFF!important;
+    /* Rajout du font size*/
+    font-size: 23px;
+    /* Rajout du font size*/
 }
 
 .btn-atomic-tangerine {
