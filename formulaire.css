@@ -43,19 +43,26 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     position: relative;
 }
-
+.row{
+    padding-left: 25px;
+    padding-right: 25px;
+}
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-
+nav{
+    padding-right: 25px;
+}
 .bloc-lg {
     padding: 100px 50px;
 }
