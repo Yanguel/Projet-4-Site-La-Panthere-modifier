@@ -105,7 +105,6 @@ nav{
 .bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
-    position: absolute;
 /* Rajout de l'opacity pour la couleur du texte */
     opacity: 0.5;
 /*-----*/
