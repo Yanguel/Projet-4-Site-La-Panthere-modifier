@@ -907,7 +907,7 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-    .page-container,
+    main,
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
