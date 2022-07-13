@@ -669,7 +669,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black;
 }
 
 .container {
@@ -722,10 +722,16 @@ p {
     padding-top: 20px;
     margin: auto auto auto auto;
 }
-
+.textmilieu{
+    font-size: 15px;
+    font-weight: 700;
+    color: #333333!important;
+}
 h2 {
-    font-size: 22px;
-    line-height: 1.4em;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333!important;
 }
 
 h3 {
@@ -734,7 +740,11 @@ h3 {
     font-weight: 700;
     color: #333333!important;
 }
-
+h4{
+    font-size: 15px;
+    font-weight: 700;
+    color: #333333!important;
+}
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
@@ -772,7 +782,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
