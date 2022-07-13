@@ -5,7 +5,11 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    width: 100%;
 }
+body main {
+    margin: auto;
+  }
 .navigation{
     list-style-type: none;
     display: flex;
@@ -55,12 +59,18 @@ a:hover {
 .row{
     padding-left: 25px;
     padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.contactemail{
+    width: 100%;
 }
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 nav{
