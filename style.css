@@ -98,7 +98,9 @@ a:hover {
 .bg-t-edge {
     background: top no-repeat;
 }
-
+.textmilieu{
+    font-size: 15px;
+}
 .bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
@@ -120,11 +122,12 @@ a:hover {
 }
 /* Rajout du font size*/
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
+.backgroundorange{
+    background-color: #a62c06;
+    border-radius: 25px;
+    padding: 15px 15px;
+    width: 100%;
 }
-
 .b-parallax {
     background-attachment: fixed;
 }
@@ -136,7 +139,14 @@ a:hover {
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
 }
+.prefooter{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
+}
 .d-bloc .icon-round,
 .d-bloc .icon-square,
 .d-bloc .icon-rounded,
@@ -156,7 +166,7 @@ a:hover {
 .d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
-.d-bloc h1 a,
+.d-bloc a,
 .d-bloc h2 a,
 .d-bloc h3 a,
 .d-bloc h4 a,
@@ -254,7 +264,7 @@ a:hover {
 .l-bloc a .icon-md,
 .l-bloc a .icon-lg,
 .l-bloc a .icon-xl,
-.l-bloc h1 a,
+.l-bloc a,
 .l-bloc h2 a,
 .l-bloc h3 a,
 .l-bloc h4 a,
@@ -315,6 +325,10 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    background: #a62c06;
+    border-radius: 25px;
+    color: white;
+    padding: 15px 15px;
 }
 
 .navbar {
@@ -664,7 +678,7 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
+
 h2,
 h3,
 h4,
@@ -679,9 +693,6 @@ a {
     color: black;
 }
 
-.container {
-    max-width: 1000px;
-}
 
 .hero-bloc-text {
     font-size: 38px;
@@ -758,9 +769,6 @@ h4{
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
 
 h4 {
     color: #333333!important;
@@ -789,7 +797,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #a62c06;
+    border-radius: 25px;
     padding: 40px 40px 40px 40px;
 }
 
@@ -807,7 +816,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #CC450B;
+    background-color: #a62c06;
 }
 
 .tc-white {
@@ -818,7 +827,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #CC450B;
+    background: #a62c06;
     color: #FFFFFF!important;
 }
 
@@ -850,10 +859,6 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {
