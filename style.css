@@ -811,6 +811,9 @@ h4 {
     background-color: #FFFFFF;
 }
 
+.bgc-dark-slate-blue {
+    background-color: #364577;
+}
 
 .bgc-atomic-tangerine {
     background-color: #a62c06;
@@ -836,7 +839,6 @@ h4 {
 .ltc-white {
     color: #FFFFFF!important;
 }
-
 .ltc-white:hover {
     color: #cccccc!important;
 }
@@ -933,6 +935,27 @@ h4 {
     .page-container {
         overflow-x: hidden;
         position: relative;
+    }
+    .center{
+        display: flex;
+        flex-direction: column;
+    }
+    .portfolio-thumb{
+        width: 100%;
+    }
+    .paragrapheportfolio{
+        padding-bottom: 40px;
+    }
+    .social{
+        display: flex;
+        justify-content: space-around;
+    }
+    a[data-lightbox] {
+        position: relative;
+        display: block;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
     .imagetext1, .imagetext2, .imagetext3{
         width: 100%;
