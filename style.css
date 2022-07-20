@@ -775,9 +775,12 @@ h2 {
 
 h3 {
     font-size: 15px;
-    text-transform: uppercase;
+    
     font-weight: 700;
     color: #333333!important;
+}
+.titre-portfolio{
+    text-transform: uppercase;
 }
 h4{
     font-size: 15px;
