@@ -46,6 +46,27 @@ a:hover {
 }
 /* Fin des modifications */
 
+/* Début des modifications button*/
+
+.contactbtn:focus{
+    outline: none; /* On supprime le contour par défaut du navigateur */
+    box-shadow: 0px 0px 10px 5px #FFFFFF; /* On met une petite ombre grise */
+}   
+/* Fin des modifications button */
+
+.text-paragraphe{
+    font-size: 20px;
+}
+.text-citation{
+    font-size: 15px;
+}
+.text-center-service{
+    display: flex;
+    justify-content: center;
+}
+.text-service-center{
+ width: 50%;
+}
 .bloc {
     width: 100%;
     clear: both;
@@ -935,6 +956,9 @@ h4 {
     .page-container {
         overflow-x: hidden;
         position: relative;
+    }
+    .text-service-center{
+        width: 100%;
     }
     .center{
         display: flex;
