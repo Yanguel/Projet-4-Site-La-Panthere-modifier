@@ -886,11 +886,13 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/photodefondtelephone.webp");
+    background-image: url("img/photodefondtelephone.jpg");
+    width: 100%;
+    background-size: cover;
 }
 
 .bg-presentation {
-    background-image: url("img/photodefondtelephone2.webp");
+    background-image: url("img/photodefondtelephone2.jpg");
     
 }
 @media (max-width: 1024px) {
