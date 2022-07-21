@@ -12,11 +12,16 @@ body main {
   }
 main{
     width: 100%;
+    max-width: 1920px;
+    min-width: 320px;
 }
+
 .navigation{
     list-style-type: none;
     display: flex;
 }
+
+
 .acceuil{
     padding-right: 15px;
 }
@@ -142,7 +147,9 @@ a:hover {
     font-size: 12px;
 }
 /* Rajout du font size*/
-
+.icone-contact{
+    width: 100%;
+}
 .backgroundorange{
     background-color: #a62c06;
     border-radius: 25px;
@@ -428,9 +435,7 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-    .site-navigation {
-
-    }
+    
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
@@ -835,9 +840,6 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
 
 .bgc-atomic-tangerine {
     background-color: #a62c06;
@@ -886,17 +888,30 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/photodefondtelephone.jpg");
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    object-fit: cover;
+    background-size: cover;
+    image-rendering: auto;
 }
 
 .bg-presentation {
-    background-image: url("img/photodefondtelephone2.bmp");
+    background-image: url("img/photodefondtelephone2.jpg");
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    background-size: cover;
+    image-rendering: auto;
 }
 
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
         padding-right: 20px;
+        
     }
+    
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
@@ -914,28 +929,29 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    .b-parallax {
+        background-attachment: fixed;
 }
 
+
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
     .b-parallax {
-        background-attachment: scroll;
+        background-attachment: fixed;
     }
     
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
     
+    
+   
 }
 
 @media (max-width: 991px) {
     .container {
         width: 100%;
-    }
-    .b-parallax {
-        background-attachment: scroll;
     }
     .page-container,
     #hero-bloc {
@@ -960,6 +976,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
+    
     .text-service-center{
         width: 100%;
     }
@@ -967,8 +984,11 @@ h4 {
         display: flex;
         flex-direction: column;
     }
-    .portfolio-thumb{
+    .portfolio-thumb, .souhaits{
         width: 100%;
+    }
+    .b-parallax {
+        background-attachment: scroll;
     }
     .paragrapheportfolio{
         padding-bottom: 40px;
@@ -1122,12 +1142,12 @@ h4 {
 
 @media (max-width: 400px) {
     
-    
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
-    
+   
+}
 }
