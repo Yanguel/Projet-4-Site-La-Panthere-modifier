@@ -887,9 +887,6 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/photodefondtelephone.webp");
-    background-size: 100% important!;
-    object-fit: cover;
-    width: 100%;
 }
 
 .bg-presentation {
