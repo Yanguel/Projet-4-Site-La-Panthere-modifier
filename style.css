@@ -903,6 +903,8 @@ h4 {
 .bg-banniere {
     background-image: url("img/photodefondtelephone.jpg");
     width: 100%;
+    max-width: 100%;
+    max-height: 100%;
     background-size: cover;
 }
 
