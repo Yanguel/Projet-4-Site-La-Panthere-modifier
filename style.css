@@ -436,12 +436,20 @@ a:hover {
     z-index: 2;
 }
 
+
+
+
+
+
 @media (min-width: 768px) {
     
+
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
     }
+    
+
     .nav-invert .site-navigation {
         left: 0;
         right: 0;
@@ -469,7 +477,11 @@ a:hover {
         float: none;
         margin: 10px auto 0;
     }
+    
 }
+
+
+
 
 .nav > li > .dropdown a {
     background: none!important;
@@ -898,6 +910,11 @@ h4 {
     background-image: url("img/photodefondtelephone2.jpg");
     
 }
+
+
+
+
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -925,7 +942,7 @@ h4 {
     .b-parallax {
         background-attachment: fixed;
 }
-
+}
 
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -951,6 +968,9 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
+    .b-parallax{
+        background-attachment: scroll;
+    }
     
     .bloc-group,
     .bloc-group .bloc {
@@ -968,6 +988,17 @@ h4 {
     .page-container {
         overflow-x: hidden;
         position: relative;
+    }
+    .bloc-mob-center-text {
+        text-align: center;
+    }
+    .portfolio-thumb{
+        width: 100% !important;
+    }
+    .portfolio-row{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
     }
     .col-sm-6{
         display: flex;
@@ -1139,7 +1170,13 @@ h4 {
         width: 180px;
         height: 320px;
     }
-    
+    .col-sm-6{
+        display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1150,6 +1187,4 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
-   
-}
 }
